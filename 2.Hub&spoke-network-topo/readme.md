@@ -18,22 +18,36 @@
 
 5. for that we can search route tables
    > create route table (for both spoke vnet)
+   
      name:- spokeTB1 /SpokeTB2
+   
      propagte gateway routes : yes
    
-6. now go to spokeTB1/spokeTB2
+7. now go to spokeTB1/spokeTB2
    > Routes
-     +add
-      name :- spoke2-traffic-to-hub / spoke1-traffic-to-hub
-      address prefix...:- IP address
-      ...:- add the vm spoke2 ip address / add the vm spoke1 ip address
-         :- virtual network gateway
-   =add
-   >subnets
-     +associate
-       vnet :- spoke1 / spoke2
-    subnet :- default
    
-7. after this check that routes are added or not in the spoke routes table
+     +add
+   
+      name :- spoke2-traffic-to-hub / spoke1-traffic-to-hub
+   
+      address prefix...:- IP address
+   
+      ...:- add the vm spoke2 ip address / add the vm spoke1 ip address
+   
+         :- virtual network gateway
+   
+   =add
+   
+   >subnets
+   
+     +associate
+   
+       vnet :- spoke1 / spoke2
+   
+    subnet :- default
+
+   
+9. after this check that routes are added or not in the spoke routes table
+    
     > spoke1vm > effective routes 
     
