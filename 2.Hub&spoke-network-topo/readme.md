@@ -10,7 +10,7 @@
    
 2. create vpn gateway on hub vnet  [sku vpnGw1]
    
-3. peer spoke to hub vnet
+3. peer spoke to hub vnet (inside but spoke vnet setting)
    
     > setting > peering > add
     
