@@ -1,14 +1,18 @@
 ```md
 # Azure SQL Interview Questions & Answers
 
-Azure SQL is a managed cloud-based database service by Microsoft that provides scalable, secure, and high-performance database solutions. It eliminates the need for hardware management and offers built-in capabilities like automated backups, high availability, and advanced security.
+Azure SQL is a managed cloud-based database service by Microsoft that provides scalable, secure, and high-performance database solutions.
+
+It eliminates the need for hardware management and offers built-in capabilities like automated backups, high availability, and advanced security.
 
 ---
 
 # 🟢 Basic Azure SQL Interview Questions
 
 ### 1. What is Azure SQL Database?
-Azure SQL Database is a fully managed relational database service in the cloud. It provides built-in high availability, security, and automated backups without requiring hardware management.
+Azure SQL Database is a fully managed relational database service in the cloud. It provides built-in high availability,
+
+security, and automated backups without requiring hardware management.
 
 ---
 
@@ -62,7 +66,9 @@ Provide high availability by automatically switching to a secondary database dur
 # 🟡 Intermediate Azure SQL Interview Questions
 
 ### 1. What is Azure SQL Managed Instance?
-A fully managed SQL Server instance in Azure with near 100% compatibility, including features like stored procedures, triggers, and views.
+A fully managed SQL Server instance in Azure with near 100% compatibility, including features
+
+like stored procedures, triggers, and views.
 
 ---
 
@@ -213,7 +219,9 @@ Azure SQL provides:
 - High availability
 - Automated management
 
-It is an ideal solution for modern cloud-based applications requiring reliability, performance, and minimal operational overhead.
+It is an ideal solution for modern cloud-based applications requiring reliability, performance,
+
+and minimal operational overhead.
 
 ---
 ```
