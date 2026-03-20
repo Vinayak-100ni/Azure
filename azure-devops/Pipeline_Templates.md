@@ -20,7 +20,6 @@ A **template** is a reusable YAML file that contains predefined pipeline logic s
 
 ## 📂 Recommended Folder Structure
 
-```
 
 ├── azure-pipelines.yml
 └── templates/
