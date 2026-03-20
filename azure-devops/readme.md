@@ -12,3 +12,6 @@ Tool for manual and exploratory testing with test case management.
 
 ### Azure Artifacts
 Package management system to store and share dependencies (npm, Maven, NuGet, etc.).
+
+
+#### code commit > code build > test > push to repo > test > deploy to dev > deploy to test > deploy to prod. 
