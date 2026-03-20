@@ -22,7 +22,6 @@ A **template** is a reusable YAML file that contains predefined pipeline logic s
 
 ```
 
-.
 ├── azure-pipelines.yml
 └── templates/
 ├── steps/
